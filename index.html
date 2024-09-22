@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <!-- HERO SECTION -->
+    <section class="relative flex flex-col justify-around bg-azul-950 h-[500px] w-full">
+      <header
+      class="py-3 flex lg:justify-around transition-all duration-500 z-20 fixed top-0 w-full md:justify-around justify-between px-5 items-center"
+    id="header">
+      <!-- logo -->
+      <div class="flex space-x-2">
+        <img src="./src/img/lendo.png" alt="" class="h-8">
+        <span class="text-white font-semibold">Lendo</span>
+      </div>
+      <!-- Navegação -->
+      <!-- BTN-NAVBAR -->
+      <button
+        class="lg:hidden md:hidden flex border border-[#515151] rounded-full px-1 py-1 z-20"
+        id="btn-navbar"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-list text-[#515151]"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+          />
+        </svg>
+      </button>
+      <div class="hidden" id="box-transparent"></div>
+      <!-- NAV -->
+      <nav
+        class="lg:space-x-5 md:space-x-5 text-slate-200 lg:block md:block px-5 py-3 lg:static md:static transition-all duration-500 fixed top-0 -right-full w-full bg-[#030407e7] lg:bg-transparent  lg:w-auto md:w-auto lg:h-full md:h-full h-screen flex justify-between *:text-gray-200 rounded-md flex-col"
+        id="navbar"
+      >
+        <!-- Links -->
+        <div
+          class="lg:space-x-5 md:space-x-5 space-y-5 lg:inline md:inline flex flex-col *:lg:text-gray-200 *:text-sm text-gray-200"
+          id="mudar-cor">
+
+          <div class="flex space-x-2 lg:hidden w-auto self-start h-10">
+
+            <span class="text-white font-semibold">MENU</span>
+          </div>
+          <a href="" class="">QUEM SOMOS</a>
+          <a href="">PRODUTOS</a>
+          <a href="">CONTACTOS</a>
+        </div>
+
+        <a
+          href="./src/login.html"
+          class="bg-gradient-to-l to-rosa-700 from-rosa-800  px-5 py-2 text-white text-sm rounded-md text-center"
+          >Cadastrar</a
+        >
+      </nav>
+    </header>
+      <!-- aprenda lendo -->
+       <div class="flex justify-center h-full space-y-5 flex-col items-center">
+        <h1 class="text-white text-4xl">Aprenda Lendo</h1>
+        <p class="text-rosa-700">Faça a requisição do livro que deseja</p>
+       <div class="w-44 bg-gradient-to-l space-x-3 *:text-white to-rosa-700 from-rosa-800 flex justify-end rounded-full p-2 items-center">
+        <a href="">Ver os livros</a>
+        <a href="" class="h-8 w-8 rounded-full bg-white"></a>
+       </div>
+       </div>
+    </section>
+    <!-- sobre nós -->
+     <section class="bg-cinza-800 relative w-full flex flex-col lg:py-20">
+        <img src="./src/img/lendo-l.png" alt="" class="absolute h-300 right-0">
+        <div class="flex 2xl:px-72 lg:px-48 px-5 flex-col space-y-3 z-10">
+          <div class="space-y-2">
+            <h2 class="lg:text-3xl text-2xl mt-20 text-white">Quem nós somos, <span class="text-rosa-700">veja tudo sobre nós</span></h2>
+          <hr class="bg-gradient-to-tl to-rosa-700 from-rosa-800 border-0 lg:w-40 w-24 h-1">
+          </div>
+          <p class="text-slate-200">Somos a Cosmo Tech uma organização tecnológiaca que busca
+            ajudar a comunidade desenvolvedora, <br>já temos mais de 5 projectos que
+            ajudam a comunidade uma delas é essa.
+            </p>
+        </div>
+        <div class="flex w-full *:w-1/4 z-10 mt-20 flex-wrap">
+          <img src="./src/img/business-person-using-laptop-multitasking-finish-daily-startup-tasks.jpg" alt="">
+          <img src="./src/img/portrait-young-student-class.jpg" alt="">
+          <img src="./src/img/representation-user-experience-interface-design.jpg" alt="">
+          <img src="./src/img/side-view-man-wheelchair-work.jpg" alt="">
+        </div>
+        <div class="flex w-full z-10 justify-center  *:text-white mt-20 gap-x-8 gap-y-8 flex-wrap *:flex *:flex-col *:items-center *:text-center *:gap-y-3">
+          <article class="">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill="#c62a5b" data-name="Layer 1" viewBox="0 0 24 24" class="size-14"><path d="M20.1,5.39l-3.49-3.49c-1.23-1.23-2.86-1.9-4.6-1.9H6.5C4.02,0,2,2.02,2,4.5v15c0,2.48,2.02,4.5,4.5,4.5h11c2.48,0,4.5-2.02,4.5-4.5V9.99c0-1.74-.68-3.37-1.9-4.6Zm-.71,.71c.55,.55,.97,1.2,1.24,1.9h-5.13c-.83,0-1.5-.67-1.5-1.5V1.37c.71,.27,1.35,.69,1.9,1.24l3.49,3.49Zm1.61,13.4c0,1.93-1.57,3.5-3.5,3.5H6.5c-1.93,0-3.5-1.57-3.5-3.5V4.5c0-1.93,1.57-3.5,3.5-3.5h5.51c.33,0,.66,.03,.99,.09V6.5c0,1.38,1.12,2.5,2.5,2.5h5.41c.06,.32,.09,.65,.09,.99v9.51ZM6.97,13h-.97c-.55,0-1,.45-1,1v4.5c0,.28,.22,.5,.5,.5s.5-.22,.5-.5v-1.5h.97c1.11,0,2.01-.92,2.01-2.02s-.9-1.98-2.01-1.98Zm0,3h-.97v-2h.97c.56,0,1.01,.44,1.01,.98s-.46,1.02-1.01,1.02Zm5.03-3h0s-.51,0-1,0c-.55,0-1,.45-1,1v4c0,.55,.45,1,1,1,.48,0,.97,0,1,0h0c1.11,0,2-.89,2-1.98v-2.03c0-1.09-.89-1.98-2-1.98Zm1,4.02c0,.53-.43,.96-.96,.98h-1.04v-4h1.04c.53,.02,.96,.46,.96,.98v2.03Zm6-3.52c0,.28-.22,.5-.5,.5h-2.5v2s1.5,0,1.5,0c.28,0,.5,.22,.5,.5s-.22,.5-.5,.5h-1.5v1.5c0,.28-.22,.5-.5,.5s-.5-.22-.5-.5v-4.5c0-.55,.45-1,1-1h2.5c.28,0,.5,.22,.5,.5Z"/></svg>
+            <h2 class="text-white  text-xl">Livros em PDF</h2>
+            <p>Na compra de 3 livros levará mais um de brinde</p>
+          </article>
+          <article class="">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" fill="#c62a5b" class="size-14" data-name="Layer 1" viewBox="0 0 24 24">
+              <path d="m22.317,2.088c-1.068-.892-2.466-1.262-3.837-1.012l-3.995.727c-1.073.195-1.964.849-2.485,1.736-.521-.888-1.412-1.541-2.486-1.736l-3.995-.727c-1.37-.248-2.768.12-3.837,1.012-1.069.893-1.682,2.202-1.682,3.595v11.374c0,2.263,1.617,4.2,3.844,4.606l6.57,1.194c.526.096,1.056.144,1.585.144s1.06-.048,1.586-.144l6.57-1.194c2.228-.406,3.844-2.344,3.844-4.606V5.683c0-1.392-.613-2.702-1.683-3.595Zm-10.817,19.896c-.303-.02-.605-.057-.907-.111l-6.57-1.194c-1.752-.319-3.023-1.843-3.023-3.622V5.683c0-1.095.482-2.125,1.323-2.827.668-.558,1.501-.855,2.355-.855.22,0,.441.021.662.061l3.995.727c1.254.229,2.165,1.319,2.165,2.594v16.604Zm11.5-4.928c0,1.779-1.271,3.303-3.023,3.622l-6.569,1.194c-.302.055-.604.092-.907.111V5.381c0-1.274.91-2.365,2.165-2.594l3.995-.727c1.074-.195,2.177.094,3.017.796.841.701,1.323,1.731,1.323,2.826v11.374Z"/>
+            </svg>
+            <h2 class="text-white  text-xl">Livros físico</h2>
+            <p>Imprimimos qualquer livro que deseja</p>
+          </article>
+          <article class="">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" fill="#c62a5b" class="size-14"><path d="M18.147,7.191c-.44-.098-.805-.377-1-.766-1.615-3.224-5.103-4.943-8.675-4.279-3.135,.582-5.669,3.081-6.306,6.218-.19,.933-.218,1.873-.083,2.796,.083,.567-.058,1.073-.387,1.387C.604,13.592,.001,14.996,0,16.5c0,3.136,2.364,5.5,5.5,5.5h10.736c4.13,0,7.611-3.234,7.758-7.211,.134-3.612-2.325-6.808-5.847-7.598Zm-1.911,13.809H5.5c-2.607,0-4.5-1.893-4.5-4.499,.001-1.229,.495-2.376,1.388-3.231,.566-.54,.815-1.361,.685-2.254-.118-.808-.093-1.633,.074-2.452,.556-2.742,2.77-4.926,5.508-5.435,.448-.083,.895-.123,1.335-.123,2.637,0,5.052,1.45,6.263,3.867,.33,.659,.941,1.131,1.676,1.295,3.051,.685,5.182,3.453,5.066,6.584-.128,3.445-3.16,6.248-6.759,6.248Zm-.969-6.854c.195,.195,.195,.512,0,.707l-2.707,2.707c-.258,.257-.588,.381-.925,.412-.044,.013-.087,.027-.135,.027s-.091-.015-.135-.027c-.337-.031-.668-.155-.925-.412l-2.707-2.707c-.195-.195-.195-.512,0-.707s.512-.195,.707,0l2.561,2.561v-7.207c0-.276,.224-.5,.5-.5s.5,.224,.5,.5v7.207l2.561-2.561c.195-.195,.512-.195,.707,0Z"/></svg>
+            <h2 class="text-white  text-xl">Aproveite a promoção</h2>
+            <p>Preços acessíveis para qualquer tipo de livro</p>
+          </article>
+        </div>
+        <!--  -->
+        <div class="flex flex-wrap w-full justify-center space-x-5 gap-y-8 mt-20">
+          <img src="./src/img/Imagem WhatsApp 2024-07-17 às 21.32.59_fc312a96.jpg" alt="" class="w-full lg:w-150 md:w-3/4">
+          <div class="flex flex-col space-y-5 w-150 lg:w-150 md:w-3/4 justify-center">
+            <h2 class="lg:text-3xl text-2xl  text-white">Prefere livro físico que pdf?<span class="text-rosa-700"> nós temos a solução</span></h2>
+            <hr class="bg-gradient-to-tl to-rosa-700 from-rosa-800 border-0 lg:w-40 w-24 h-1">
+            <p class="text-slate-200">Sente-se entediado em ler pdf? Nós temos a solução! <br>
+              Envie para nós o livro que deseja ler e nós faremos a impressão a um preço acessível.
+              <br> Não perca tempo, faça o seu pedido e deixa tudo connosco.
+              </p>
+          </div>
+        </div>
+        <div class="container" id="livros-container">
+        
+        </div>
+     </section>
+     <script src="./src/script.js"></script>
+     <script src="./src/navbar.js"></script>
+  </body>
+</html>

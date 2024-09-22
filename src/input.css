@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.open {
+    right: 0 !important;
+  }
+  .rolagem {
+    background-color: #030407e7 !important;
+    
+  }
+  .text-black{
+      color: black !important;
+  }
+  .hidden{
+      display: none;
+  }
+  .block{
+      display: block;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    border: 1px solid #030407;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3{
+    margin-top: 8px;
+}

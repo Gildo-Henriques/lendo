@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Arrume a sua cama",
+        "imagem": "./src/img/arrume.png"
+    },
+    {
+        "nome": "A arte da persuasão",
+        "imagem": "./src/img/persuasão.png"
+    },
+    {
+        "nome": "A única coisa",
+        "imagem": "./src/img/foco.png"
+    },
+    {
+        "nome": "A psicología financeira",
+        "imagem": "./src/img/psiq-financeira.png"
+    },
+    {
+        "nome": "Como convencer alguém em 90 segundos",
+        "imagem": "./src/img/convencer.png"
+    },
+    {
+        "nome": "Hábitos atómicos",
+        "imagem": "./src/img/habitos.png"
+    },
+    {
+        "nome": "Javascript guia definitivo",
+        "imagem": "./src/img/js.png"
+    },
+    {
+        "nome": "Mindset",
+        "imagem": "./src/img/mindset.png"
+    },
+    {
+        "nome": "Mentes maquiavélicas",
+        "imagem": "./src/img/mentes.png"
+    },
+    {
+        "nome": "O homem mais rico da Babilónia",
+        "imagem": "./src/img/homem mais rico da babilónia.png"
+    },
+    {
+        "nome": "Os 4 segredos do sucesso",
+        "imagem": "./src/img/4 segredos.png"
+    },
+    
+    {
+        "nome": "Machine learning (Python)",
+        "imagem": "./src/img/machine learning.png"
+    },
+    {
+        "nome": "Gramática",
+        "imagem": "./src/img/inglish.png"
+    }
+    
+]
